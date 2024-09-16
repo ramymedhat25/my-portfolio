@@ -1,0 +1,38 @@
+.header {
+    background-image: url('../wild.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .headerContent h1 {
+    font-size: 48px; 
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .headerContent p {
+    font-size: 24px; 
+    margin-bottom: 30px;
+  }
+  
+  .headerContent button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .headerContent button:hover {
+    background: white;
+    color: black;
+  }
+  

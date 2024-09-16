@@ -1,0 +1,90 @@
+
+.skills {
+  background-color: #333;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.skillsContent {
+  max-width: 900px;
+  margin: auto;
+}
+
+.skillsContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.skillsContent p {
+  margin-bottom: 30px;
+}
+
+.skillsList {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.focusArea {
+  width: 40%;
+}
+
+.focusArea h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.focusArea ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.focusArea li {
+  margin-bottom: 10px;
+}
+
+.skillBars {
+  width: 60%;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skillName {
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+}
+
+.skillBar {
+  display: inline-block;
+  background-color: #555;
+  width: 70%;
+  height: 10px;
+}
+
+.skillLevel {
+  background-color: white;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .skillsList {
+    flex-direction: column;
+  }
+
+  .focusArea,
+  .skillBars {
+    width: 100%;
+  }
+
+  .skillName {
+    width: 40%;
+  }
+
+  .skillBar {
+    width: 60%;
+  }
+}

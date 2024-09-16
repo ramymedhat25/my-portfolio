@@ -1,0 +1,73 @@
+
+
+.contact {
+  background-color: #000; 
+  color: #fff; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  font-family: Arial, sans-serif; 
+}
+
+.contactInfo h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.contactInfo p a {
+  color: #fff; 
+  text-decoration: none; 
+}
+
+.contactButton {
+  padding: 10px 25px;
+  align-items: right;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  display: flex;
+
+}
+
+.contactButton:hover {
+  background-color: #fff; 
+  color: #000; 
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+}
+
+.socialLinks a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.socialLinks a svg {
+  fill: #fff;
+}
+
+.copyRight {
+  font-size: 0.75rem;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contactInfo, .socialLinks, .copyRight {
+    margin-bottom: 20px;
+  }
+
+  .contactButton {
+    margin: 20px 0;
+  }
+}
